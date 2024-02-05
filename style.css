@@ -1,0 +1,81 @@
+body {
+  background: "images/Barranquilla_imagen.jpeg";
+  background-color: #EC9E69;
+  font-family: "Raleway", sans-serif;
+  color: #022C43;
+  line-height: 150%
+ }
+
+ div.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+div.card{
+  text-align: center;
+  background: rgb(235, 226, 226);                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 25px;
+  box-shadow: 0 30px 30px rgba(0,0,0,.1);
+  margin-bottom: 30px;  /* Light shadow */
+  opacity: 0.9;
+}
+
+ h1 {
+  color: #333644;
+  font-size: 25px
+ }
+
+ h2 {
+  color: #333644;
+  font-size: 25px
+ }
+
+
+ button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ button:hover {
+  text-decoration: underline
+ }
+
+nav {
+  float: left;
+  background-color: #9BB8CD;
+  opacity: 0.8;
+  border-radius: 10px;
+  position: fixed;
+}
+
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline; /* Ensures list items are displayed inline */
+}
+
+li a {
+  display: inline-block; /* Allows anchor elements to fill the width */
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover{
+  text-decoration: underline
+}
